@@ -12,6 +12,8 @@ window.onload = function() {
   let nouns = ['jogger', 'racoon', 'ball', 'house'];
   let domains = ['.com', '.net', '.gov', '.net']
 
+  // Simplify the loop code for the newer version
+  // To make it looks simple and clean
   for(let pronoun of pronouns ) {
     for(let adj of adjs) {
       for(let noun of nouns) {
